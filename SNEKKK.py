@@ -12,7 +12,6 @@ LineThickness = 10
 PaddleSize = 50
 PaddleOffset = 20
 (x, YPosPaddle) = pygame.mouse.get_pos()
-print YPosPaddle
 Black = (0, 0 , 0)
 White = (255, 255, 255)
 screen.blit(Paddle,(10,YPosPaddle))

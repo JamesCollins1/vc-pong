@@ -4,8 +4,9 @@ from pygame.locals import *
 YPosPaddle = 10
 XPosBall = 640
 YPosBall = 360
-XDirectionBall = 5
-YDirectionBall = 5
+XDirectionBall = 10
+YDirectionBall = 10
+Score = 0
 screen = pygame.display.set_mode((1280, 720))
 
 running = True

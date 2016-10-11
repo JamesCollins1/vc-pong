@@ -7,13 +7,13 @@ XPosBall = XPosBall + XDirectionBall
 YPosBall = YPosBall + YDirectionBall
 
 if XPosBall == 1230:
-    XDirectionBall = -5
+    XDirectionBall = -10
 if YPosBall == 670:
-    YDirectionBall = -5
+    YDirectionBall = -10
 #if XPosBall == 0:
 #    XDirectionBall = 1
 if YPosBall == 0:
-    YDirectionBall = 5
+    YDirectionBall = 10
 screen.blit(SnekBall, (XPosBall, YPosBall))
 pygame.display.update()
 pygame.display.flip()
