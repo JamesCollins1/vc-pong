@@ -16,5 +16,4 @@ while running:
             running = False
         if event.type == KEYDOWN and event.key == K_ESCAPE:
             running = False
-        if event.type == KEYDOWN:
-            exec("BallMovement.py")
+    execfile("SNEKKK.py")
