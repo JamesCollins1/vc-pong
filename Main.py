@@ -4,8 +4,8 @@ from pygame.locals import *
 YPosPaddle = 10
 XPosBall = 640
 YPosBall = 360
-XDirectionBall = 1
-YDirectionBall = 1
+XDirectionBall = 5
+YDirectionBall = 5
 screen = pygame.display.set_mode((1280, 720))
 
 running = True
@@ -19,4 +19,5 @@ while running:
             running = False
 
     execfile("BallMovement.py")
+    execfile("SNEKKK.py")
 
