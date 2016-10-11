@@ -2,6 +2,7 @@ import pygame
 SnekBall = pygame.image.load('SnekBall.png')
 BlackBox = pygame.image.load('black.png')
 screen.blit(BlackBox, (XPosBall, YPosBall))
+
 XPosBall = XPosBall + XDirectionBall
 YPosBall = YPosBall + YDirectionBall
 
@@ -9,8 +10,8 @@ if XPosBall == 1230:
     XDirectionBall = -1
 if YPosBall == 670:
     YDirectionBall = -1
-if XPosBall == 0:
-    XDirectionBall = 1
+#if XPosBall == 0:
+#    XDirectionBall = 1
 if YPosBall == 0:
     YDirectionBall = 1
 screen.blit(SnekBall, (XPosBall, YPosBall))
